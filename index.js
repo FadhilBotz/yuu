@@ -28,7 +28,7 @@ nocache('./helga.js', module => console.log(color('|TRM|'), color(`${module} Upd
 
 const starts = async (helga = new WAConnection()) => {
 	helga.logger.level = 'warn'
-	helga.version = [2, 2140, 12]
+	helga.version = [2, 2143, 3]
 	console.log(color(`\x1b[1;37m> Ayaa\n`,'cyan'))
 	console.log(color(figlet.textSync('AyaaChan', {
 		font: 'Standard',
